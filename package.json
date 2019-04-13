@@ -1,0 +1,28 @@
+{
+    "name": "playground",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:slydor/playground.git",
+    "author": "slydor <aprange@gmx.net>",
+    "license": "UNLICENSED",
+    "private": true,
+    "devDependencies": {
+        "@types/jest": "^24.0.11",
+        "jest": "^24.7.1",
+        "ts-jest": "^24.0.2",
+        "typescript": "^3.4.3"
+    },
+    "jest": {
+        "globals": {
+            "ts-jest": {}
+        },
+        "moduleFileExtensions": [
+            "ts",
+            "js"
+        ],
+        "transform": {
+            "\\.(ts)$": "ts-jest"
+        },
+        "testRegex": ".*\\.test\\.(ts|js)$"
+    }
+}
