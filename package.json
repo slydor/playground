@@ -1,16 +1,23 @@
 {
     "name": "playground",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "index.ts",
     "repository": "git@github.com:slydor/playground.git",
     "author": "slydor <aprange@gmx.net>",
     "license": "UNLICENSED",
     "private": true,
+    "scripts": {
+        "test": "jest",
+        "tsc": "tsc"
+    },
     "devDependencies": {
         "@types/jest": "^24.0.11",
+        "eslint": "^6.6.0",
+        "eslint-config-prettier": "^6.5.0",
         "jest": "^24.7.1",
+        "prettier": "^1.19.1",
         "ts-jest": "^24.0.2",
-        "typescript": "^3.4.3"
+        "typescript": "^3.7.2"
     },
     "jest": {
         "globals": {
